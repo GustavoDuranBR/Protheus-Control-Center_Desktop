@@ -131,7 +131,7 @@ frame_links.pack(pady=10)
 
 link_installer = tk.Label(
     frame_links,
-    text="Documentação do Instalador Protheus",
+    text="Documentação: Instalador Protheus e Inicializador Protheus",
     bg='#333333',
     fg='#8bb7f7',
     font=('Arial', 10, 'underline'),
@@ -140,21 +140,7 @@ link_installer = tk.Label(
 link_installer.pack(pady=5)
 link_installer.bind(
     "<Button-1>",
-    lambda e: open_link("https://github.com/GustavoDuranBR/Protheus-Control-Center/blob/master/docs/instalador_protheus.md")
-)
-
-link_initializer = tk.Label(
-    frame_links,
-    text="Documentação do Inicializador Protheus",
-    bg='#333333',
-    fg='#8bb7f7',
-    font=('Arial', 10, 'underline'),
-    cursor="hand2"
-)
-link_initializer.pack(pady=5)
-link_initializer.bind(
-    "<Button-1>",
-    lambda e: open_link("https://github.com/GustavoDuranBR/Protheus-Control-Center/blob/master/docs/inicializador_protheus.md")
+    lambda e: open_link("https://github.com/GustavoDuranBR/Protheus-Control-Center_Desktop/blob/master/docs/CONFIGURACOES_DIRETORIOS.md")
 )
 
 # Frame central para os botões
