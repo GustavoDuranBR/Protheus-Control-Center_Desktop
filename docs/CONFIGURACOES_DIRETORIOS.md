@@ -42,9 +42,13 @@ O instalador baixa os arquivos necessários para o Protheus, como:
 - Appserver
 - SmartClient
 - DBAccess
+- Protheus_data
+- Web-Agent
+- DbApi
+- SmartclientWebapp
 - Base Congelada (dependendo da versão)
    
-Estes arquivos são obtidos a partir de URLs pré-definidas.
+Os arquivos necessários são obtidos a partir de URLs pré-definidas, utilizando o repositório oficial da TOTVS, disponível em arte.engpro.totvs.com.br.
 
 ### Extração de Arquivos
 Após o download, os arquivos ZIP são extraídos para os diretórios correspondentes.
