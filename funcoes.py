@@ -134,6 +134,7 @@ def extract_files(version, log_box):
         "appserver.zip": f"C:\\TOTVS\\Protheus_{version}\\bin\\Appserver",
         "dbaccess.zip": f"C:\\TOTVS\\TotvsDBAccess",
         "dbapi.zip": f"C:\\TOTVS\\TotvsDBAccess",
+        "dbapi.zip": f"C:\\TOTVS\\Protheus_{version}\\bin\\Appserver",
         "smartclient.zip": f"C:\\TOTVS\\Protheus_{version}\\bin\\SmartClient",
         "smartclientwebapp.zip": f"C:\\TOTVS\\Protheus_{version}\\bin\\Appserver",
         "web-agent.zip": f"C:\\TOTVS\\Download\\{version}\\web-agent",
